@@ -5,9 +5,10 @@ body{
 }
 
 .container{
-     width: 80%;
+    width: 80%;
     margin: auto;
     overflow: hidden;
+    padding: 10px;
 }
 
 header{
@@ -31,7 +32,25 @@ header #logo img{
     margin: 0;
 }
 
+#pageoptions{
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+    width: 200px;
+    float: left;
+    overflow: hidden;
+}
 
+#pageoptions a{
+    padding: 10px;
+    display: block;
+}
 
-
-
+#contentarea{
+    width: 1000px;
+    height: 100vh;
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+    overflow: hidden;
+}

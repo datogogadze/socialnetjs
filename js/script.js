@@ -1,1 +1,1 @@
-console.log("script opened.");
+console.log("script has opened.");
